@@ -23,11 +23,9 @@
 	```
 
 
-3. QC: Libraries were QC'ed using BioA and qPCR. HMR kit appeared to be choppy while custom oligo libraries looked good with a bell like distribution of fragments.
+3. Sequencing: All libraries were sequenced, in a single lane, on HiSeq 2500 for 50 bases
 
-4. Sequencing: All libraries were sequenced, in a single lane, on HiSeq 2500 for 50 bases
-
-5. Analysis: 
+4. Analysis: 
 
 	1. Amount of duplication (higher % Dups here means lower complexity data)
 		```
