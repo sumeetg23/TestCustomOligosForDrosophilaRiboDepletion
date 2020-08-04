@@ -47,7 +47,7 @@
 		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 47.10% | 48%  |
 		```
 	2. Alignment Rates (Using Bowtie)
-	
+		```
 		| Sample Name       | Barcode           | Fly Genome Alignment percent    | Fly16S percent*   | All Ribosomal rRNA percent ** |
 		|-------------------|-------------------|---------------------------------|-------------------|-------------------------------|
 		| Y1-HMR            | CGGCTATG-TATAGCCT | 89.10%                          | 0%                | 63.71%                        |
@@ -64,4 +64,5 @@
 		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 85.09%                          | 0.67%             | 0.85%                         |
 
 		* Only 16S sequence was used for alignment
-		* Only ribosomal sequences from flybase were used
+		** Only ribosomal sequences from flybase were used
+		```
