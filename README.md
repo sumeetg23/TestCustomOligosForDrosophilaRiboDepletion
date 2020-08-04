@@ -20,7 +20,7 @@
    	Condition #3: Ribodepletion using custom fly oligos (NOT including 16S). 
        Sample names - Y1-NO16SDepletion, Y2-NO16SDepletion, Y3-NO16SDepletion, Y4-NO16SDepletion
        
-```
+	```
 
 
 3. QC: Libraries were QC'ed using BioA and qPCR. HMR kit appeared to be choppy while custom oligo libraries looked good with a bell like distribution of fragments.
