@@ -46,4 +46,22 @@
 		| Y3-NO16SDepletion | CTGAAGCT-GGCTCTGA | 51.00% | 47%  |
 		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 47.10% | 48%  |
 		```
+	2. Alignment Rates (Using Bowtie)
+	
+		| Sample Name       | Barcode           | Fly Genome Alignment percent    | Fly16S percent*   | All Ribosomal rRNA percent ** |
+		|-------------------|-------------------|---------------------------------|-------------------|-------------------------------|
+		| Y1-HMR            | CGGCTATG-TATAGCCT | 89.10%                          | 0%                | 63.71%                        |
+		| Y2-HMR            | TCCGCGAA-TATAGCCT | 89.38%                          | 0%                | 64.27%                        |
+		| Y3-HMR            | TCTCGCGC-TATAGCCT | 89.08%                          | 0%                | 66.73%                        |
+		| Y4-HMR            | AGCGATAG-TATAGCCT | 89.76%                          | 0%                | 68.50%                        |
+		| Y1-16SDepleted    | ATTCAGAA-CCTATCCT | 84.10%                          | 0%                | 0.52%                         |
+		| Y2-16SDepleted    | GAATTCGT-CCTATCCT | 83.99%                          | 0%                | 0.20%                         |
+		| Y3-16SDepleted    | CTGAAGCT-CCTATCCT | 84.17%                          | 0%                | 0.16%                         |
+		| Y4-16SDepleted    | TAATGCGC-CCTATCCT | 83.95%                          | 0%                | 0.12%                         |
+		| Y1-NO16SDepletion | ATTCAGAA-GGCTCTGA | 85.26%                          | 0.73%             | 1.88%                         |
+		| Y2-NO16SDepletion | GAATTCGT-GGCTCTGA | 84.91%                          | 0.49%             | 0.65%                         |
+		| Y3-NO16SDepletion | CTGAAGCT-GGCTCTGA | 84.79%                          | 0.54%             | 0.63%                         |
+		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 85.09%                          | 0.67%             | 0.85%                         |
 
+		* Only 16S sequence was used for alignment
+		* Only ribosomal sequences from flybase were used
