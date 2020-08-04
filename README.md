@@ -85,7 +85,7 @@
 		*** Only ribosomal sequences from flybase were used
 		```
 		
-	3. Scatter Plot and Correlation: Correlation between "16SDepeleted" and "NO16SDepletion" is generally higher than for the same sample (for example Y1-NO16SDepletion has a higher correlation with Y1-16SDepleted vs (Y2-16SDepleted OR Y3-16SDepleted OR Y4-16SDepleted)
+	3. Scatter Plot and Correlation: Correlation between "16SDepeleted" and "NO16SDepletion" is generally higher than for the same sample (for example Y3-NO16SDepletion has a higher correlation with Y3-16SDepleted vs (Y1-16SDepleted OR Y2-16SDepleted OR Y4-16SDepleted). This is expected since Y# are not technical replicates.
 	
 		![ScatterAndCorr](scatterplots-and-corr.jpeg)
 	
