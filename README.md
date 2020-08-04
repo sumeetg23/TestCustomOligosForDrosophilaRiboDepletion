@@ -29,8 +29,8 @@
 
 5. Analysis: 
 
-1. Amount of duplication (higher mean lower complexity data)
-```
+	1. Amount of duplication (higher mean lower complexity data)
+		```
 		| Sample Name       | Barcode           | % Dups | % GC |
 		|-------------------|-------------------|--------|------|
 		| Y1-HMR            | CGGCTATG-TATAGCCT | 72.30% | 42%  |
@@ -45,5 +45,5 @@
 		| Y2-NO16SDepletion | GAATTCGT-GGCTCTGA | 50.00% | 48%  |
 		| Y3-NO16SDepletion | CTGAAGCT-GGCTCTGA | 51.00% | 47%  |
 		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 47.10% | 48%  |
-```
+		```
 
