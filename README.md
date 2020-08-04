@@ -87,4 +87,6 @@
 		
 	3. Scatter Plot and Correlation
 	
+		![ScatterAndCorr](scatterplots-and-corr.jpeg)
+	
 	4. Clustering 
