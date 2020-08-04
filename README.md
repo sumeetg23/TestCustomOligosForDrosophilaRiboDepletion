@@ -90,5 +90,8 @@
 		![ScatterAndCorr](scatterplots-and-corr.jpeg)
 	
 	4. Clustering: "16SDepeleted" and "NO16SDepletion", for the same sample (Y#) are more correlated. HMR preps are significantly different as expected due to inefficient removal of rRNA.
-	
+		
+		```
+		Based on distance matrix using genes with sum of counts across all samples > 10
+		```
 		![Clustering](clustering.png)
