@@ -49,7 +49,7 @@
 	2. Alignment Rates 
 		```
 		(Using Bowtie)
-		| Sample Name       | Barcode           | Fly Genome Alignment percent    | Fly16S percent*   | All Ribosomal rRNA percent ** |
+		| Sample Name       | Barcode           | Fly Genome Alignment percent    | Fly16S percent**  | All Ribosomal rRNA percent*** |
 		|-------------------|-------------------|---------------------------------|-------------------|-------------------------------|
 		| Y1-HMR            | CGGCTATG-TATAGCCT | 89.10%                          | 0%                | 63.71%                        |
 		| Y2-HMR            | TCCGCGAA-TATAGCCT | 89.38%                          | 0%                | 64.27%                        |
@@ -64,6 +64,27 @@
 		| Y3-NO16SDepletion | CTGAAGCT-GGCTCTGA | 84.79%                          | 0.54%             | 0.63%                         |
 		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 85.09%                          | 0.67%             | 0.85%                         |
 
-		* Only 16S sequence was used for alignment
-		** Only ribosomal sequences from flybase were used
+		(Using sortmerna)
+		| Sample Name       | Barcode           | silva-euk-28s-id98.fasta*| silva-euk-18s-id95.fasta*| Fly16S percent**  | All Ribosomal rRNA percent*** |
+		|-------------------|-------------------|--------------------------|--------------------------|-------------------|-------------------------------|
+		| Y1-HMR            | CGGCTATG-TATAGCCT | 44.18%                   | 23.36%                   | 0.00%             | 68.23%                        |
+		| Y2-HMR            | TCCGCGAA-TATAGCCT | 43.03%                   | 24.78%                   | 0.00%             | 68.69%                        |
+		| Y3-HMR            | TCTCGCGC-TATAGCCT | 44.63%                   | 25.82%                   | 0.00%             | 71.38%                        |
+		| Y4-HMR            | AGCGATAG-TATAGCCT | 48.04%                   | 24.18%                   | 0.00%             | 73.04%                        |
+		| Y1-16SDepleted    | ATTCAGAA-CCTATCCT | 0.40%                    | 0.23%                    | 0.00%             | 0.62%                         |
+		| Y2-16SDepleted    | GAATTCGT-CCTATCCT | 0.17%                    | 0.09%                    | 0.00%             | 0.26%                         |
+		| Y3-16SDepleted    | CTGAAGCT-CCTATCCT | 0.15%                    | 0.08%                    | 0.00%             | 0.21%                         |
+		| Y4-16SDepleted    | TAATGCGC-CCTATCCT | 0.14%                    | 0.08%                    | 0.00%             | 0.18%                         |
+		| Y1-NO16SDepletion | ATTCAGAA-GGCTCTGA | 0.79%                    | 0.47%                    | 0.76%             | 2.04%                         |
+		| Y2-NO16SDepletion | GAATTCGT-GGCTCTGA | 0.13%                    | 0.06%                    | 0.51%             | 0.73%                         |
+		| Y3-NO16SDepletion | CTGAAGCT-GGCTCTGA | 0.10%                    | 0.03%                    | 0.56%             | 0.69%                         |
+		| Y4-NO16SDepletion | TAATGCGC-GGCTCTGA | 0.16%                    | 0.07%                    | 0.71%             | 0.95%                         |
+
+		* Ribsomal sequences that come as default genomes with sortmerna
+		** Only 16S sequence was used for alignment
+		*** Only ribosomal sequences from flybase were used
 		```
+		
+	3. Scatter Plot and Correlation
+	
+	4. Clustering 
