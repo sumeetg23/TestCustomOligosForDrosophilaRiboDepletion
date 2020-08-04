@@ -29,7 +29,7 @@
 
 5. Analysis: 
 
-	1. Amount of duplication (higher mean lower complexity data)
+	1. Amount of duplication (higher % Dups here means lower complexity data)
 		```
 		| Sample Name       | Barcode           | % Dups | % GC |
 		|-------------------|-------------------|--------|------|
